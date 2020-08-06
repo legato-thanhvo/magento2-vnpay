@@ -23,11 +23,5 @@
         "psr-4": {
             "ThanhVo\\VNPay\\": ""
         }
-    },
-    "repositories": [
-        {
-          "type": "composer",
-          "url": "https://repo.magento.com/"
-        }
-    ]
+    }
 }
