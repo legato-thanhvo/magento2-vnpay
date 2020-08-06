@@ -1,0 +1,27 @@
+{
+    "name": "thanhvo-cse/magento2-vnpay",
+    "description": "Payment method VNPAY",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~7.3.0||~7.4.0"
+    },
+    "authors": [
+        {
+            "name": "Thanh Vo",
+            "email": "thanhvo.cse@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ThanhVo\\VNPay\\": ""
+        }
+    }
+}
